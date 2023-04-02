@@ -1,11 +1,11 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Bradley Hand, cursive;
 }
 
-body{
+body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -14,16 +14,16 @@ body{
   background: #1f2028;
 }
 
-section{
+section {
   position: relative;
   width: 100%;
 }
 
-section .waves{
+section .waves {
   position: relative;
 }
 
-section .waves .wave{
+section .waves .wave {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -33,53 +33,53 @@ section .waves .wave{
   background-size: 1000px 100px;
 }
 
-section .waves .wave#wave1{
+section .waves .wave#wave1 {
   opacity: 1;
   bottom: 0;
   z-index: 1000;
   animation: animate 4s linear infinite;
 }
 
-section .waves .wave#wave2{
-  opacity: .5;
+section .waves .wave#wave2 {
+  opacity: 0.5;
   bottom: 10px;
   z-index: 999;
   animation: animate2 4s linear infinite;
 }
 
-section .waves .wave#wave3{
-  opacity: .2;
+section .waves .wave#wave3 {
+  opacity: 0.2;
   bottom: 15px;
   z-index: 998;
   animation: animate 2s linear infinite;
 }
 
-section .waves .wave#wave4{
-  opacity: .7;
+section .waves .wave#wave4 {
+  opacity: 0.7;
   bottom: 20px;
   z-index: 999;
   animation: animate2 2s linear infinite;
 }
 
-@keyframes animate{
-  0%{
+@keyframes animate {
+  0% {
     background-position-x: 1000px;
   }
-  100%{
+  100% {
     background-position-x: 0px;
   }
 }
 
-@keyframes animate2{
-  0%{
+@keyframes animate2 {
+  0% {
     background-position-x: 0px;
   }
-  100%{
+  100% {
     background-position-x: 1000px;
   }
 }
 
-.stars{
+.stars {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -89,7 +89,7 @@ section .waves .wave#wave4{
   mix-blend-mode: screen;
 }
 
-h2{
+h2 {
   position: absolute;
   bottom: 60vh;
   transform: translateY(50%);
@@ -99,10 +99,10 @@ h2{
   font-size: 10em;
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: .5rem;
+  letter-spacing: 0.5rem;
 }
 
-.island{
+.island {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -111,9 +111,9 @@ h2{
   pointer-events: none;
 }
 
-.box-name{
+.box-name {
   position: absolute;
-  top: 85%;
+  top: 88%;
   right: 75%;
   transform: translate(-50%, -50%);
   padding: 0;
@@ -121,25 +121,25 @@ h2{
   height: 50px;
 }
 
-.box-name ion-icon{
+.box-name ion-icon {
   font-size: 20px;
   color: #fff;
 }
 
-ul{
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-ul li{
+ul li {
   font-size: 15px;
   color: #fff;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
 }
 
-.box-play{
-  position: absolute; 
+.box-play {
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -300%);
@@ -152,9 +152,9 @@ ul li{
   align-items: center;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
   font-size: 23px;
-  letter-spacing: .5rem;
+  letter-spacing: 0.5rem;
 }
